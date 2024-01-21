@@ -1,7 +1,7 @@
 package Patterns;
 
 public enum Patterns {
-    FILL(),
+    FILL(PatternsRegex.FILL_REGEX),
     BYTE(PatternsRegex.BYTE_REGEX),
     IPV4(PatternsRegex.IPV4_REGEX);
 
